@@ -5,6 +5,7 @@ Project **Drift** is an ambitious, open-source development project designed to b
 ## Project Codebases (Git Submodules)
 * 🍏 **macOS Transmitter (Swift / SwiftUI):** [AirDrift](https://github.com/Falak-Parmar/AirDrift)
 * 🤖 **Android Receiver (Kotlin / Jetpack Compose):** [DroidDrift](https://github.com/Falak-Parmar/DroidDrift)
+* 🪟 **Windows Transmitter (Upcoming):** `WinDrift` (Planned desktop transmitter client)
 
 ---
 
@@ -118,3 +119,8 @@ Rather than a single server causing port conflicts, DroidDrift uses a dual-mode,
    cd AirDrift
    swift run AirDrift localhost
    ```
+
+---
+
+## 6. Future Roadmap
+* 🪟 **WinDrift (Upcoming):** Engineering a lightweight Windows transmitter client to capture desktop mouse and keyboard events at the system level and stream them to the `DroidDrift` server, enabling Windows-to-Android continuity for PC workspaces.
