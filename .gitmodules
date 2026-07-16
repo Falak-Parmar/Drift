@@ -1,0 +1,6 @@
+[submodule "AirDrift"]
+	path = AirDrift
+	url = https://github.com/Falak-Parmar/AirDrift.git
+[submodule "DroidDrift"]
+	path = DroidDrift
+	url = https://github.com/Falak-Parmar/DroidDrift.git
