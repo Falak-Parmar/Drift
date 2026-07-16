@@ -13,9 +13,9 @@ Project **Drift** is an ambitious, open-source development project designed to b
 Unlike official ecosystem tools that restrict layout topology or lock software to a single brand ecosystem, Drift provides a unified, cross-platform workspace. By establishing **DroidDrift** as the central target hub, a user can transition control dynamically from their primary computer, regardless of whether it is a Mac or a Windows PC.
 
 ### Multi-Screen Chaining Topology Examples:
-* **The Apple/Android Chain:** The cursor moves across the MacBook display, tunnels through an iPad via native Apple Universal Control, exits the edge of the iPad, and instantly wakes up the native Android pointer on a phone or tablet.
+* **The Apple/Android Chain:** The cursor moves across the MacBook display and instantly wakes up the native Android pointer on a phone or tablet. Meanwhile still supporting the native Universal Control between the MacBook and iPad.
 ```
-[ MacBook (AirDrift) ] -------> [ iPad (Native) ] -------> [ Android Device (DroidDrift) ]
+[ iPad (Native) ] <------- [ MacBook (AirDrift) ] -------> [ Android Device (DroidDrift) ]
 ```
 
 * **The PC Desktop Chain:** The cursor hits the boundary of a multi-monitor Windows workstation setup and seamlessly warps directly onto a side-car Android tablet.
